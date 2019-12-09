@@ -24,3 +24,29 @@
   color: whitesmoke;
   font-weight: 500;
 }
+
+#what-we-do {
+  height: max-content;
+  margin: 20px 0px 20px 0px;
+}
+
+#what-we-do div div {
+  align-content: center;
+  margin: 10px 0px 10px 0px;
+}
+
+#design-icon,
+#dev-icon,
+#prod-icon,
+#design-description,
+#dev-description,
+#prod-description {
+  cursor: pointer;
+}
+
+#design-description,
+#dev-description,
+#prod-description {
+  display: none;
+  font-size: 1.2em;
+}
