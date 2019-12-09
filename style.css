@@ -67,3 +67,13 @@
   left: 50%;
 }
 
+@media screen and (max-width: 600px) {
+  #about-us, #services {
+    height: 100vh;
+    font-size: 1em;
+  }
+
+  #what-we-do {
+    height: max-content;
+  }
+}
