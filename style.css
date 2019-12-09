@@ -50,3 +50,20 @@
   display: none;
   font-size: 1.2em;
 }
+
+#portfolio {
+  height: 80vh;
+}
+
+.project img {
+  margin: 10px 0px 10px 0px;
+}
+
+.project-name {
+  position: absolute;
+  color: red;
+  z-index: 1;
+  right: 30px;
+  left: 50%;
+}
+
