@@ -11,3 +11,16 @@
   top: 150px;
 }
 
+#about-us {
+  height: 60vh;
+  font-weight: 500;
+}
+
+#services {
+  height: 60vh;
+  background: url('/assets/backgrounds/s_image.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+  font-weight: 500;
+}
