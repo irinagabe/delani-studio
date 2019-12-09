@@ -12,3 +12,11 @@ $(document).ready(function () {
     $("#prod-description").slideToggle(1000);
   });
 
+  $(".project").hover(function () {
+    $(this).css({ opacity: "0.65", transition: "1s" });
+  },
+    function () {
+      $(this).css({ opacity: "1", transition: "1s" });
+    }
+  );
+});
