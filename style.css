@@ -1,0 +1,79 @@
+#header {
+  height: 100vh;
+  background: url('/assets/backgrounds/h_img.jpg') no-repeat center;
+  background-size: cover;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+#msclick {
+  position: relative;
+  top: 150px;
+}
+
+#about-us {
+  height: 60vh;
+  font-weight: 500;
+}
+
+#services {
+  height: 60vh;
+  background: url('/assets/backgrounds/s_image.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+#what-we-do {
+  height: max-content;
+  margin: 20px 0px 20px 0px;
+}
+
+#what-we-do div div {
+  align-content: center;
+  margin: 10px 0px 10px 0px;
+}
+
+#design-icon,
+#dev-icon,
+#prod-icon,
+#design-description,
+#dev-description,
+#prod-description {
+  cursor: pointer;
+}
+
+#design-description,
+#dev-description,
+#prod-description {
+  display: none;
+  font-size: 1.2em;
+}
+
+#portfolio {
+  height: 80vh;
+}
+
+.project img {
+  margin: 10px 0px 10px 0px;
+}
+
+.project-name {
+  position: absolute;
+  color: red;
+  z-index: 1;
+  right: 30px;
+  left: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  #about-us, #services {
+    height: 100vh;
+    font-size: 1em;
+  }
+
+  #what-we-do {
+    height: max-content;
+  }
+}
