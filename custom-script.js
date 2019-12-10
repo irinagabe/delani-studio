@@ -13,10 +13,9 @@ $(document).ready(function () {
   });
 
   $(".project").hover(function () {
-    $(this).css({ opacity: "0.65", transition: "1s" });
+    $(this).children(".project-name").fadeIn();
   },
     function () {
-      $(this).css({ opacity: "1", transition: "1s" });
-    }
-  );
+      $(this).children(".project-name").fadeOut();
+    });
 });

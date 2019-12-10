@@ -61,10 +61,18 @@
 
 .project-name {
   position: absolute;
-  color: red;
+  color: whitesmoke;
+  -webkit-backdrop-filter: opacity(.4);
+  backdrop-filter: opacity(0.4);
   z-index: 1;
-  right: 30px;
-  left: 50%;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+  bottom: 10%;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5% 50% 0% 5%;
+  font-size: 2em;
 }
 
 @media screen and (max-width: 600px) {
