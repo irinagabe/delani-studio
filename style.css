@@ -13,6 +13,7 @@
 
 #about-us {
   height: 90vh;
+  font-size: 1.4em;
   font-weight: 500;
 }
 
@@ -22,6 +23,7 @@
   background-size: cover;
   background-attachment: fixed;
   color: whitesmoke;
+  font-size: 1.4em;
   font-weight: 500;
 }
 
