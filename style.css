@@ -12,12 +12,12 @@
 }
 
 #about-us {
-  height: 60vh;
+  height: 90vh;
   font-weight: 500;
 }
 
 #services {
-  height: 60vh;
+  height: 80vh;
   background: url('assets/backgrounds/s_image.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
