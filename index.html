@@ -176,7 +176,29 @@
   </section>
 
   <!-- contact us -->
-  <section id="contact-us" class="row align-items-center">Contact Us</section>
+  <section id="contact-us" class="row align-items-center">
+    <div class="col-12 text-center">
+      <h2>CONTACT US</h2>
+      <form id="contact-form">
+        <div class="row justify-content-center">
+          <div class="form-group col-md-4 text-left">
+            <input required type="text" name="name" class="form-control" placeholder="Your Name" autocomplete="name" />
+          </div>
+          <div class="form-group col-md-4 text-left">
+            <input required type="email" name="email" class="form-control" placeholder="Your Email Address"
+              autocomplete="email" />
+          </div>
+          <div class="form-group col-md-8 text-left">
+            <textarea required name="message" class="form-control" cols="30" rows="10"
+              placeholder="Your Message..."></textarea>
+          </div>
+        </div>
+        <div class="button-group">
+          <button class="btn btn-secondary col-md-8" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
   <!-- footer -->
   <footer class="row align-items-center">Social Media Icons</footer>
@@ -191,9 +213,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 
   <!-- Custom JS -->
   <script src="custom-script.js"></script>
+  <script src="form-validation.js"></script>
 </body>
 
 </html>
