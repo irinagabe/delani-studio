@@ -18,7 +18,7 @@ $(document).ready(function () {
     },
     submitHandler: function (form) {
       let name = $("input[name='name']").val();
-      alert(name + ', your message has been well received.');
+      alert(name + ', your message has been well received. Thank you for reaching out.');
       form.reset();
     }
   });
