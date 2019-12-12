@@ -54,7 +54,7 @@
 }
 
 #portfolio {
-  height: 80vh;
+  height: max-content;
 }
 
 .project img {
@@ -64,8 +64,6 @@
 .project-name {
   position: absolute;
   color: whitesmoke;
-  -webkit-backdrop-filter: opacity(.4);
-  backdrop-filter: opacity(0.4);
   z-index: 1;
   top: 8%;
   right: 8%;
@@ -78,6 +76,14 @@
   display: none;
 }
 
+@supports (-webkit-backdrop-filter: none) or
+(backdrop-filter: none) {
+  .project-name {
+    -webkit-backdrop-filter: opacity(.4);
+    backdrop-filter: opacity(0.4);
+  }
+}
+
 #contact-us {
   height: 80vh;
   background-image: url('assets/backgrounds/c_image.jpg');
@@ -85,6 +91,11 @@
   color: whitesmoke;
   font-size: 1.4em;
 }
+
+footer {
+  height: 20vh;
+}
+
 @media screen and (max-width: 600px) {
   #about-us, #services {
     height: 100vh;
@@ -93,5 +104,13 @@
 
   #what-we-do {
     height: max-content;
+  }
+
+  #contact-us {
+    height: max-content;
+  }
+
+  footer {
+    height: 100vh;
   }
 }
