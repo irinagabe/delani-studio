@@ -78,6 +78,13 @@
   display: none;
 }
 
+#contact-us {
+  height: 80vh;
+  background-image: url('assets/backgrounds/c_image.jpg');
+  background-size: cover;
+  color: whitesmoke;
+  font-size: 1.4em;
+}
 @media screen and (max-width: 600px) {
   #about-us, #services {
     height: 100vh;
