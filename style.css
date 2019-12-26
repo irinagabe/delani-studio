@@ -1,6 +1,6 @@
 #header {
   height: 100vh;
-  background: url('assets/backgrounds/h_img.jpg') no-repeat center;
+  background: url('/assets/backgrounds/h_img.jpg') no-repeat center;
   background-size: cover;
   color: whitesmoke;
   font-weight: 500;
@@ -19,7 +19,7 @@
 
 #services {
   height: 80vh;
-  background: url('assets/backgrounds/s_image.jpg') no-repeat center;
+  background: url('/assets/backgrounds/s_image.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   color: whitesmoke;
@@ -86,7 +86,7 @@
 
 #contact-us {
   height: 80vh;
-  background-image: url('assets/backgrounds/c_image.jpg');
+  background-image: url('/assets/backgrounds/c_image.jpg');
   background-size: cover;
   color: whitesmoke;
   font-size: 1.4em;
